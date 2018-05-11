@@ -39,6 +39,6 @@ type RebootInstance struct {
 
 
 //DeleteInstance to store all attribute to Delete Ali-cloud ECS instance
-type RebootInstance struct {
+type DeleteInstance struct {
 	InstanceId string
 }
