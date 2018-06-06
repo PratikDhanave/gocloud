@@ -1,11 +1,11 @@
 package vultrauth
 
 import (
+	"io/ioutil"
+	"net/http"
 	"net/url"
 	"strconv"
-	"net/http"
 	"strings"
-	"io/ioutil"
 )
 
 func SignAndDoRequest(method string, path string, params map[string]interface{}, response map[string]interface{}) error {
