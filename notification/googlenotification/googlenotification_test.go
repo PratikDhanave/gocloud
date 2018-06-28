@@ -3,7 +3,7 @@ package googlenotification
 import "testing"
 import "fmt"
 
-/*
+
 
 func TestListTopic(t *testing.T) {
 	var googlenotification Googlenotification
@@ -67,8 +67,6 @@ func TestDeleteTopic(t *testing.T) {
   fmt.Println(response["body"])
 }
 
-
-*/
 
 
 func TestCreateTopic(t *testing.T) {
